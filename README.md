@@ -15,35 +15,6 @@ This project addresses the gap between affordable embedded hardware and actionab
 
 The system is designed to be deployable in infrastructure-sparse environments where Wi-Fi connectivity cannot be assumed, making it especially relevant for agricultural biogas installations, LPG storage facilities, and industrial kitchens in developing regions.
 
-┌──────────────────────────────────────────────────────────┐
-│                     SYSTEM BLOCK DIAGRAM                 │
-│                                                          │
-│   ┌──────────┐    Analog      ┌─────────────────┐        │
-│   │  MQ-9    │───────────────▶│                 │        │
-│   │ Gas Snsr │                │   Arduino Uno   │        │
-│   └──────────┘                │   (ATmega328P)  │─────▶ Serial Debug    │
-│                               │                 │        │
-│   ┌──────────┐    I2C         │                 │        │
-│   │ 16×2 LCD │◀──────────────│                 │        │
-│   │ Display  │                │                 │        │
-│   └──────────┘                │                 │        │
-│                               │                 │        │
-│   ┌──────────┐    GPIO        │                 │        │
-│   │  Buzzer  │◀──────────────│                 │        │
-│   └──────────┘                │                 │        │
-│                               │                 │        │
-│   ┌──────────┐    GPIO        │                 │        │
-│   │  LED     │◀──────────────│                 │        │
-│   │ (Orange) │                └────────┬────────┘        │
-│   └──────────┘                         │                  │
-│                               SoftwareSerial (UART)       │
-│                               ┌────────▼────────┐        │
-│                               │  GSM Module     │        │
-│                               │ (SIM800L/SIM900)│──▶ SMS │
-│                               └─────────────────┘        │
-└──────────────────────────────────────────────────────────┘
-
-
 Bill of Materials
 
 | Component | Specification | Role |
