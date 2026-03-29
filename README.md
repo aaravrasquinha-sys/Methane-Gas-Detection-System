@@ -68,3 +68,5 @@ const float R0 = 10.0;  // kΩ
 // Thresholds (% LEL)
 #define WARN_THRESHOLD   8
 #define ALERT_THRESHOLD  10
+
+![Image Alt](image_url)
