@@ -69,4 +69,4 @@ const float R0 = 10.0;  // kΩ
 #define WARN_THRESHOLD   8
 #define ALERT_THRESHOLD  10
 
-![Image Alt](image_url)
+![Image Alt](https://github.com/aaravrasquinha-sys/Methane-Gas-Detection-System/blob/9ce68b7d877caa5200241823f22d34915affa5e0/Working%20Prototype.jpeg)
