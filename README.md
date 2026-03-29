@@ -1,6 +1,7 @@
 # Methane-Gas-Detection-System
 IoT-based methane gas detection system built on Arduino Uno with an MQ-9 sensor, providing real-time LEL monitoring via a 16×2 LCD, tiered alerts through an LED and buzzer, and GSM-based SMS notifications for remote safety response — designed for infrastructure-sparse environments where internet connectivity cannot be assumed.
 
+![Image Alt](https://github.com/aaravrasquinha-sys/Methane-Gas-Detection-System/blob/9ce68b7d877caa5200241823f22d34915affa5e0/Working%20Prototype.jpeg)
 Problem Statement
 
 Natural gas and biogas infrastructure—spanning residential pipelines, agricultural digesters, industrial plants, and confined utility spaces—presents a persistent and underappreciated safety risk. Methane (CH₄), the primary constituent of natural gas, is both odourless in its pure form and highly flammable, with a Lower Explosive Limit (LEL) of just 5% by volume in air.
@@ -69,4 +70,4 @@ const float R0 = 10.0;  // kΩ
 #define WARN_THRESHOLD   8
 #define ALERT_THRESHOLD  10
 
-![Image Alt](https://github.com/aaravrasquinha-sys/Methane-Gas-Detection-System/blob/9ce68b7d877caa5200241823f22d34915affa5e0/Working%20Prototype.jpeg)
+
